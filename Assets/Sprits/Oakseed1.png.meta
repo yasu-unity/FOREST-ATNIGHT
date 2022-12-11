@@ -1,0 +1,3965 @@
+fileFormatVersion: 2
+guid: ef01d2cc80a342540aa46890a1441caf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Oakseed1_0
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 670
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74a89c269b6cd94c8f5def0dc6d39c8
+      internalID: 2016580043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 680
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34ccc7f147dc04fb1ee932f1543008
+      internalID: 2034193241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 671
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c4c82277d2553489c60fd0d8253536
+      internalID: 1446963648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 684
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14510f8c91565f448f0317252fcb2c2
+      internalID: 1102439675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 656
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee870e1e19bf0ee4eba46670d9d1f847
+      internalID: -798188100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 670
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a4fbe53223e2c44b1d33dc93356c8d
+      internalID: 453211300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 656
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed140baa92e1ea42b66fb7e43d73358
+      internalID: 1803835741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 656
+        width: 25
+        height: 15
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2c30e29cde794abecabdf1e24a776
+      internalID: 127441287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 656
+        width: 27
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df9defc194e0347af95bd22d7b47ae
+      internalID: 734569855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_9
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 654
+        width: 26
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a185bcb21390545aa28dc18c30986d
+      internalID: 550490881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 656
+        width: 25
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c4477c7eee524285bef7b4de85325
+      internalID: -945035617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 656
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef25c6c8e0900b2448940fbafc4531e3
+      internalID: 589009171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 656
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585edcb235188b64ba47d2babd5faa43
+      internalID: -1949167594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 656
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86109689dbecf54cb8b8a19183a1bf2
+      internalID: -1760797411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 657
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cb1c39c62d22543bb5d2846ec7e7ee
+      internalID: -330333211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_15
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 656
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dc8e14b6ee0bf48973333ccb423aa2
+      internalID: 517436956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 592
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528fe745a55227d4a84bb2f6a9a5445f
+      internalID: -953692053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 592
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e51b8271fcb0242bca7ac1cd4ae2c0
+      internalID: 1159033120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 592
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9c73b807162b44d9f126aba02bdc00
+      internalID: -362588098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 606
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905546c70add86848ae432b3045d2acf
+      internalID: 572005093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 592
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc56b3811c29ee3419b08945aa0deeee
+      internalID: 538087522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 592
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079a2838e91af1a45863eae5369a7ad7
+      internalID: 1138521684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_22
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 591
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68f61ed76520b4aa12d85589e2b0d3
+      internalID: -832534875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_23
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 608
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62268beeb6dfadc4797bfaffcb933e9d
+      internalID: 1738659426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_24
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 590
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb5afc4ccacf25458c121637bcd81aa
+      internalID: -989565971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 613
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898f37322a0ee2b4f8aa787093c045cc
+      internalID: 1728912256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_26
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 599
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17169833cb7d34646b534d1d73c74589
+      internalID: -1727387704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_27
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 615
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b99877ff52ffc4aaa7d8232a3912a8
+      internalID: -2070570933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_28
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 599
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30590caaadf7dfd42a12e68283aff6b5
+      internalID: 1550262919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 592
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d3aab3ed4f8849a873653b22ea9f7
+      internalID: 18532320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 592
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f77bf6849296447808687c6d0bf548
+      internalID: -795858335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_31
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 592
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd9891e24115c94492ac36eb642ac91
+      internalID: 1748360386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_32
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 586
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a7c8660b3ea6147bb97c6cdc03c104
+      internalID: 728630086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 596
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60abf88dd229fb84e80eb0569be2abb9
+      internalID: -1641943732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_34
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 596
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5007efa5dcfbe2842a8a9e5f9f63ae36
+      internalID: 1246248159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 596
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f15bd54bb1935449a7e1b43262e1a7
+      internalID: -559346772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_36
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 589
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487d79b16a7465d45a13d12cf76d589b
+      internalID: -1280771332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_37
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 596
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079a0025ab23bc44912bac5e6608b7d
+      internalID: 1357485980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_38
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 586
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485c33b2fc7a4934ba8896048b0648ad
+      internalID: 287524796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_39
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 583
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52307bbb268632e46b784ed8cff169a1
+      internalID: -295823711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_40
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 586
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95c1d15e5ad3bf40acf7043527546f9
+      internalID: 1919415312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_41
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 586
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ed1c9930c7334eb92e4b62bf77046
+      internalID: -2042449364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_42
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 586
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced89a1894fe0dd4084b4525d338441c
+      internalID: 724321216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_43
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 581
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f6dd26dbc3b64b97cafaa34c2efd1
+      internalID: -1357369100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_44
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 581
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be04aff9e3a77c4c82ad923be3efa4d
+      internalID: -1283528317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 543
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1572f409364388409df4efd2ae23589
+      internalID: -1971705007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 541
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e550b8860e388304f8f7f2d9abbddd42
+      internalID: -1644476969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_47
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 541
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182a65840cb752e48868e350728659a4
+      internalID: 1273872970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 543
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca54c5d48dc72247a8d14183c02481e
+      internalID: 917368361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_49
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 536
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46209efc7299fa14a8b1a3ac1f832e76
+      internalID: 934509448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 542
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b80aa7770cd244eba1dbccaecc60b7
+      internalID: -1093120381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 542
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7623d69243da34d88a025008733301
+      internalID: 302076178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 539
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6cdcff49a82a2429dbc930c85b1f72
+      internalID: 1209832483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 539
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439050981e288364883873da53e512ae
+      internalID: 1719356224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_54
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 528
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5398f7761cc1741835a69e304b650d
+      internalID: 1039309893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_55
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 541
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d28a983ff0c1458e20b10d708c10b
+      internalID: -1429285581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 528
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ba992676ffb8641a67dd70406b4bc7
+      internalID: -1464698926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_57
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 540
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590c97908d7f0449b99f23f282668c2
+      internalID: 1617383510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_58
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 541
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47470bf27cec94cacbf5bf88f71ccd
+      internalID: -1542269367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_59
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 541
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc6ec59cc1d9c42b537f18fce77307
+      internalID: 979246194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_60
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 541
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6db2a1f376cdfc47bbca8586d5c6f8d
+      internalID: -690074040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 528
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25636eae051950479e9a3e45d472e3b
+      internalID: 188109562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_62
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 527
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8cd7dc38d41814e89db93e23b8aa57
+      internalID: 198198600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_63
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 528
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16982f65deb625a4eab52f36a2de4b6a
+      internalID: -1299165828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_64
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 528
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50468ec49d08bf74c8198cca3f6e5ea0
+      internalID: 1122258647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_65
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 533
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b7376eefea054daed12a5c6700593
+      internalID: -1953699761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_66
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 523
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049c2d46b549cd64ca0844d57cc81425
+      internalID: 1383120784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 528
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb11f6e60586e2a4cb45e7b99c8f2e56
+      internalID: -544799206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_68
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 523
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bf804af3201004b8a6368d713a3c91
+      internalID: -210132949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_69
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 533
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3e1d457de5294f9e0a43eec17ff7a
+      internalID: -19299635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_70
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 521
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115eb9eb5611a884e9c9c373b6f9e59c
+      internalID: 1978507237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_71
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 528
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b4e9bcdfc7b1b47b59b1b9ac7a7033
+      internalID: -553997404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_72
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 522
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36659ada8b00a784b852122ecbb4e14e
+      internalID: 1061797988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_73
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 534
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ea52278150a234abab19a1ccf78607
+      internalID: 1561281161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 528
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686976d44e584984286296b5c35dae91
+      internalID: -533983716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_75
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 528
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32815d59b7099b641993ceff1c0a6831
+      internalID: -1733458504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_76
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 528
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16540226a9db29141b51be328a188142
+      internalID: -577976870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 519
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a935a9282e81e4f99dd17397106a2f
+      internalID: 85264060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_78
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 519
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eccbaac5b20e444db13c50401c16844
+      internalID: -1041348747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_79
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 464
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b21ed1948ac44a8b593c01f9941d0
+      internalID: -843393153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_80
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 464
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e02ce68b419e42a98398863c16df7
+      internalID: 393404544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_81
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 464
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0013de7c190adf499445c0a9e0fc49f
+      internalID: -111612161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_82
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 464
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74432bde45896d14c85718acefaf45dc
+      internalID: -1079970115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_83
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 464
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c22d2434204ca44a8af55413264e58
+      internalID: 761035953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_84
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 464
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cbff41c185fa746a6ae849b687a3f7
+      internalID: 514144516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_85
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 464
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1efd77af612bc428b5fa80b0bdab33
+      internalID: -287781897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_86
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 464
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea4bd3b759736d4bac26f45a256cabf
+      internalID: 407341525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_87
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 464
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cad9d4a6ef3ded42a53c109cb8e60c2
+      internalID: 1723205738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_88
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 464
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a486920a311e4cb4ba6761b2acf3b
+      internalID: 849520911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_89
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 464
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5286b832f70673d42818459e4e71d2c6
+      internalID: 390582224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_90
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 464
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d5624c7ea1844449a25264ff08a72f
+      internalID: 805677589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_91
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 400
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d7ae5665c9504dac69c975464392d
+      internalID: -89194409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_92
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f3a2c719675b2458187bfda608a235
+      internalID: -102852731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_93
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 400
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20d5d5a9c00cef4198e01f9442bd7d5
+      internalID: 1963772510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_94
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 400
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa9e1097d21eb547b71ebb003631888
+      internalID: -571482272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_95
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 400
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9196de5ca5c86244a941d7b1f0c1813b
+      internalID: -1906179334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_96
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 400
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be09f1c4a28b3043bb3949dafb46b79
+      internalID: 1022859611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_97
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 400
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77269fc3d8adc14886a1e6da7631d07
+      internalID: 1751974430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_98
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 400
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff44bb130af4840807b40a859a9a52
+      internalID: 886438787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_99
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 400
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae6996dfa10e90409f27185d8768ad7
+      internalID: -372431814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_100
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 400
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c35159bad3ffca45b12398554bcf82a
+      internalID: -1385488652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_101
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 400
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aa1766e8115b443a1f5acf57013904
+      internalID: -1880834696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_102
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 400
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e280b3e9aec6a1458a36164bb8a5615
+      internalID: 1388672215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_103
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f2e3fe9d0ea7c4a8d6fdd8a64f04b5
+      internalID: -368684344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_104
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778cf77f606c51c49a79f0e2065c2ed4
+      internalID: 1171887712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 336
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44abd62fd059c22439c3766514a7a833
+      internalID: 1385793279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_106
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bc1a51638f24743abc0fd6948e2cf5
+      internalID: -1666794792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_107
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 336
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6a88cc8355103498002073c492956f
+      internalID: -1619363932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_108
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 336
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5a77119e3107d458061448b2730525
+      internalID: -1142125004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_109
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 336
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a2558ed617a89499dc7d986eab1b3c
+      internalID: 846644270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_110
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 336
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6d353b0eb1884da27fd6c51649c70
+      internalID: -1177912445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_111
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 336
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a9ca6612db39f4bb5b44d701cbea43
+      internalID: 384841007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_112
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 336
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01f8f42aa181c34e9c8c980f4bfe86e
+      internalID: 491285713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_113
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 336
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81709ba5a7c9b4db409e68e8148121
+      internalID: -1634293399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_114
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 336
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aee858c7441c146aefa5a62c1d93b7
+      internalID: 1921589925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_115
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 336
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0de837a95071c0428e1f9c6f9414389
+      internalID: 1310650035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_116
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 336
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89cda415c4650546b19bc1a437478d9
+      internalID: 2029233616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_117
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a373bf08ae3300d48bb3df5c415f2011
+      internalID: 580862100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_118
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451a4fabc9d4e549a91726178f05ce5
+      internalID: 1135893239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_119
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 272
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46dcfe9787e0b848b3e3253cde0a5ae
+      internalID: -128572889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_120
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 272
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14914bc74170654c8a3260047dcdaf2
+      internalID: 288930646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 272
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c81c6982ab465e43a6c9b65b8398f63
+      internalID: 1176393605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_122
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 272
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec859e82ca7ab054fae98be71b8aa91a
+      internalID: 968956328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_123
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 272
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfc1a9b47ad7fc45a13eb68f35ee3cf
+      internalID: 1922074974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_124
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 272
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de695da0cd38a24b96a3b5bb72011d4
+      internalID: -861389800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_125
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 272
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bbb8456ed37f54bb744eed6f4e98c8
+      internalID: -1779373604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_126
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 272
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f535518920ec53849ae4c665ad9e2237
+      internalID: 1740352126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_127
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 272
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7567ec4bf67b74aa6eac7081d5e878
+      internalID: -1249622548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_128
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 272
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b882ac60a52ee4e926fbd228e8e23b
+      internalID: -2138898494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_129
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 272
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb4b02ebfb31e478c4c0b86bfb1b18
+      internalID: -508832936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_130
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 272
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a744aca3e5b0e42b9de4af8ec4b03d
+      internalID: -219842832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_131
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 208
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513aae783b5e17f4997f31ccb6425a8f
+      internalID: -1506459860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_132
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 208
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de17490e81f094c9a1d2eca5133f51
+      internalID: 1156862483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_133
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 208
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0b324596c882647954b24e5cdf8ad2
+      internalID: 1723341401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_134
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 208
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35344970717e014aa1daa49a3297b5d
+      internalID: 1079020638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_135
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 208
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f8fa847e4b49a439cd046046b8b6c1
+      internalID: -627030193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_136
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 208
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3016e725b2251d41b60d46ac86be37c
+      internalID: 183799042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_137
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 208
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902eac79737b6fc4086627be6e32ce64
+      internalID: 1422859892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_138
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 208
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d61dc1fdcb10b47a611ca7247afa6e
+      internalID: 1931047250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_139
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 208
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa2c97e992ecd6419beccae9bf6199d
+      internalID: 158331295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_140
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 208
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057c5b2673ce2148876cf9d498c313a
+      internalID: -951205755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_141
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 208
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2f53f48e54b764a852d07a168de98f
+      internalID: -133692371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_142
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 208
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a71727ce81d9c4fbebd4621b1f0e18
+      internalID: -866049033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_143
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133563860ba9f9c43ab2801432429e7d
+      internalID: -103659167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_144
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7474bfbb0b44ed48a7f40c639ec1821
+      internalID: -2086335228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_145
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb38eadbbff8fa408fe3b85b1dc366a
+      internalID: 466401168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_146
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075517524b6cd4f4f92a3b3fa61d5747
+      internalID: 1778123845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_147
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 144
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927d8bdba6b51974098151dd28ae68a5
+      internalID: -1279944059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_148
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 144
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bc4e5b6adbc5f478b7a106c060e1ca
+      internalID: 707673615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_149
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e4352fed70aa24fb00d1df9ee301f3
+      internalID: -368379442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_150
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 144
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67301ceb5301d464c97ff4c1efd25eab
+      internalID: -241964727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_151
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 144
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6711d1987e89c6647a46c683f3b34590
+      internalID: -1019244603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_152
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 144
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb672f39150609544ae319deb99e4639
+      internalID: 715050082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_153
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 144
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99317a38f9b7fdc408a81f2360eb4265
+      internalID: -1580385428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_154
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 144
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c142b2c19077cd34586bc709ac2d69b8
+      internalID: -39578850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_155
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5161f631f3ec64c85155cd1c92e74d
+      internalID: 1349164513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_156
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef80af54b3363b448a76cfad6015e866
+      internalID: -1482406821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_157
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 80
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0488ea792b61014297413ff2ccab5ce
+      internalID: -1717624753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_158
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 80
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92550a6ad363e2d41baf3a336fd7abc4
+      internalID: 2141765011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_159
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 80
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd875b16a6a32b64298366ef502c774d
+      internalID: -783660146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_160
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e23d72730477f4c809c7c234ff80c4
+      internalID: 827577424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_161
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 80
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c59f1a1a50de13498d5800efa922ebf
+      internalID: 1904402010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_162
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19abc291bf74e8c4b813f74f5abaa790
+      internalID: 1710679300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_163
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 80
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dabb655d61179b47bca32d1851c2d95
+      internalID: 2081292163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_164
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 80
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c600fbc599d8314a989be9b621f3afe
+      internalID: -1833573156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_165
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 80
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c563404fae7a4a8c2cc48c2a2c502
+      internalID: 1298932568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_166
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 80
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f54fbbea3fffa44903afd45d08b26f
+      internalID: 1335390479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_167
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0333c540aec26c94d8ca796b5ffa9e9c
+      internalID: -2135261786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_168
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e5ab880ca9eee449bae83cde5a517f
+      internalID: 707174936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_169
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 16
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91abd3e37ffb20b40855cf42012839d8
+      internalID: 1276971666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_170
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 16
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7c6ef153967494dbc5e6f4a1e59e0b
+      internalID: 1355832066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_171
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 16
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54ff19b1cf6c540be68c7fbf14883b
+      internalID: -1580207597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oakseed1_172
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 32
+        width: 699
+        height: 655
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fc80ccdf4e60f44acba4af9b4ab626
+      internalID: 1180065288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Oakseed1_152: 715050082
+      Oakseed1_52: 1209832483
+      Oakseed1_68: -210132949
+      Oakseed1_88: 849520911
+      Oakseed1_56: -1464698926
+      Oakseed1_87: 1723205738
+      Oakseed1_0: 2016580043
+      Oakseed1_170: 1355832066
+      Oakseed1_9: 550490881
+      Oakseed1_72: 1061797988
+      Oakseed1_94: -571482272
+      Oakseed1_96: 1022859611
+      Oakseed1_1: 2034193241
+      Oakseed1_74: -533983716
+      Oakseed1_44: -1283528317
+      Oakseed1_80: 393404544
+      Oakseed1_57: 1617383510
+      Oakseed1_172: 1180065288
+      Oakseed1_64: 1122258647
+      Oakseed1_130: -219842832
+      Oakseed1_103: -368684344
+      Oakseed1_12: -1949167594
+      Oakseed1_36: -1280771332
+      Oakseed1_131: -1506459860
+      Oakseed1_142: -866049033
+      Oakseed1_81: -111612161
+      Oakseed1_133: 1723341401
+      Oakseed1_151: -1019244603
+      Oakseed1_34: 1246248159
+      Oakseed1_77: 85264060
+      Oakseed1_18: -362588098
+      Oakseed1_42: 724321216
+      Oakseed1_129: -508832936
+      Oakseed1_102: 1388672215
+      Oakseed1_143: -103659167
+      Oakseed1_54: 1039309893
+      Oakseed1_147: -1279944059
+      Oakseed1_2: 1446963648
+      Oakseed1_163: 2081292163
+      Oakseed1_137: 1422859892
+      Oakseed1_141: -133692371
+      Oakseed1_14: -330333211
+      Oakseed1_125: -1779373604
+      Oakseed1_126: 1740352126
+      Oakseed1_117: 580862100
+      Oakseed1_32: 728630086
+      Oakseed1_17: 1159033120
+      Oakseed1_160: 827577424
+      Oakseed1_92: -102852731
+      Oakseed1_65: -1953699761
+      Oakseed1_33: -1641943732
+      Oakseed1_5: 453211300
+      Oakseed1_4: -798188100
+      Oakseed1_35: -559346772
+      Oakseed1_91: -89194409
+      Oakseed1_46: -1644476969
+      Oakseed1_55: -1429285581
+      Oakseed1_107: -1619363932
+      Oakseed1_62: 198198600
+      Oakseed1_115: 1310650035
+      Oakseed1_93: 1963772510
+      Oakseed1_67: -544799206
+      Oakseed1_69: -19299635
+      Oakseed1_121: 1176393605
+      Oakseed1_116: 2029233616
+      Oakseed1_135: -627030193
+      Oakseed1_50: -1093120381
+      Oakseed1_144: -2086335228
+      Oakseed1_159: -783660146
+      Oakseed1_155: 1349164513
+      Oakseed1_28: 1550262919
+      Oakseed1_139: 158331295
+      Oakseed1_104: 1171887712
+      Oakseed1_37: 1357485980
+      Oakseed1_24: -989565971
+      Oakseed1_86: 407341525
+      Oakseed1_40: 1919415312
+      Oakseed1_78: -1041348747
+      Oakseed1_22: -832534875
+      Oakseed1_48: 917368361
+      Oakseed1_60: -690074040
+      Oakseed1_70: 1978507237
+      Oakseed1_111: 384841007
+      Oakseed1_26: -1727387704
+      Oakseed1_58: -1542269367
+      Oakseed1_20: 538087522
+      Oakseed1_106: -1666794792
+      Oakseed1_100: -1385488652
+      Oakseed1_153: -1580385428
+      Oakseed1_112: 491285713
+      Oakseed1_3: 1102439675
+      Oakseed1_108: -1142125004
+      Oakseed1_113: -1634293399
+      Oakseed1_161: 1904402010
+      Oakseed1_85: -287781897
+      Oakseed1_101: -1880834696
+      Oakseed1_154: -39578850
+      Oakseed1_128: -2138898494
+      Oakseed1_148: 707673615
+      Oakseed1_10: -945035617
+      Oakseed1_71: -553997404
+      Oakseed1_165: 1298932568
+      Oakseed1_53: 1719356224
+      Oakseed1_59: 979246194
+      Oakseed1_13: -1760797411
+      Oakseed1_167: -2135261786
+      Oakseed1_95: -1906179334
+      Oakseed1_164: -1833573156
+      Oakseed1_38: 287524796
+      Oakseed1_27: -2070570933
+      Oakseed1_51: 302076178
+      Oakseed1_82: -1079970115
+      Oakseed1_15: 517436956
+      Oakseed1_127: -1249622548
+      Oakseed1_134: 1079020638
+      Oakseed1_156: -1482406821
+      Oakseed1_132: 1156862483
+      Oakseed1_11: 589009171
+      Oakseed1_97: 1751974430
+      Oakseed1_66: 1383120784
+      Oakseed1_140: -951205755
+      Oakseed1_6: 1803835741
+      Oakseed1_90: 805677589
+      Oakseed1_99: -372431814
+      Oakseed1_146: 1778123845
+      Oakseed1_157: -1717624753
+      Oakseed1_7: 127441287
+      Oakseed1_19: 572005093
+      Oakseed1_110: -1177912445
+      Oakseed1_63: -1299165828
+      Oakseed1_75: -1733458504
+      Oakseed1_162: 1710679300
+      Oakseed1_23: 1738659426
+      Oakseed1_169: 1276971666
+      Oakseed1_45: -1971705007
+      Oakseed1_136: 183799042
+      Oakseed1_109: 846644270
+      Oakseed1_120: 288930646
+      Oakseed1_21: 1138521684
+      Oakseed1_31: 1748360386
+      Oakseed1_119: -128572889
+      Oakseed1_138: 1931047250
+      Oakseed1_29: 18532320
+      Oakseed1_171: -1580207597
+      Oakseed1_145: 466401168
+      Oakseed1_149: -368379442
+      Oakseed1_166: 1335390479
+      Oakseed1_61: 188109562
+      Oakseed1_98: 886438787
+      Oakseed1_43: -1357369100
+      Oakseed1_49: 934509448
+      Oakseed1_76: -577976870
+      Oakseed1_124: -861389800
+      Oakseed1_16: -953692053
+      Oakseed1_114: 1921589925
+      Oakseed1_122: 968956328
+      Oakseed1_168: 707174936
+      Oakseed1_158: 2141765011
+      Oakseed1_105: 1385793279
+      Oakseed1_118: 1135893239
+      Oakseed1_83: 761035953
+      Oakseed1_8: 734569855
+      Oakseed1_30: -795858335
+      Oakseed1_150: -241964727
+      Oakseed1_25: 1728912256
+      Oakseed1_73: 1561281161
+      Oakseed1_123: 1922074974
+      Oakseed1_41: -2042449364
+      Oakseed1_79: -843393153
+      Oakseed1_89: 390582224
+      Oakseed1_84: 514144516
+      Oakseed1_47: 1273872970
+      Oakseed1_39: -295823711
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

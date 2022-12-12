@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject player;
 
-    // Update is called once per frame
+    //ëOÇÃèÍèä
+    Vector3 prePosition;
+    private void Start()
+    {
+        prePosition = transform.position;
+    }
     void Update()
     {
-        
+        Vector3 targetPos = player.transform.position;
+        if (prePosition.x < targetPos.x)
+        {
+            transform.position = targetPos;
+        }
+        prePosition = transform.position;
     }
 }

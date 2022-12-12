@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 54310027}
   - component: {fileID: 54310026}
   - component: {fileID: 54310025}
+  - component: {fileID: 54310028}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -447,6 +448,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54310023}
   m_CullTransparentMesh: 1
+--- !u!114 &54310028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54310023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: Continue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &56723176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 31886594533341681, guid: 78c8485147a5f01488aa6830b9141c6f, type: 3}
@@ -1883,7 +1913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8926f0a480f09d14dbe7e460a5838d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageNo: 0
+  stageNo: 4
   continueNum: 0
   scoreText: {fileID: 517587248}
   GameOverText: {fileID: 1276721236}
@@ -1899,6 +1929,7 @@ GameObject:
   - component: {fileID: 555647834}
   - component: {fileID: 555647833}
   - component: {fileID: 555647832}
+  - component: {fileID: 555647835}
   m_Layer: 5
   m_Name: StageSelectButton
   m_TagString: Untagged
@@ -2008,6 +2039,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555647830}
   m_CullTransparentMesh: 1
+--- !u!114 &555647835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555647830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: GoBackStageSelect
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &558468550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5886,6 +5946,7 @@ GameObject:
   - component: {fileID: 1852428400}
   - component: {fileID: 1852428399}
   - component: {fileID: 1852428398}
+  - component: {fileID: 1852428401}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -5995,6 +6056,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852428396}
   m_CullTransparentMesh: 1
+--- !u!114 &1852428401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852428396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: GoBackTitle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1853033585
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -41,9 +41,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("TitleScene");
     }
-    public void Continue()
+    public void Continue(int stageNo)
     {
-        SceneManager.LoadScene("GameScene1");
+        SceneManager.LoadScene("GameScene"+stageNo);
     }
     //バックボタンを押した
     /*public void PushBackButton()

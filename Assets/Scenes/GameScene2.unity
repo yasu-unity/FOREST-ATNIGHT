@@ -1430,6 +1430,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 31886594533341681, guid: 78c8485147a5f01488aa6830b9141c6f, type: 3}
   m_PrefabInstance: {fileID: 325852945}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &256715389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256715390}
+  m_Layer: 0
+  m_Name: Startpos
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256715390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256715389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &258571068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9165555028310297515, guid: 6c313b865cffeb44b89f54f1395d4a0d, type: 3}
@@ -3030,7 +3061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8926f0a480f09d14dbe7e460a5838d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageNo: 0
+  stageNo: 2
   continueNum: 0
   scoreText: {fileID: 517587248}
   GameOverText: {fileID: 1276721236}
@@ -3563,6 +3594,7 @@ GameObject:
   - component: {fileID: 610427230}
   - component: {fileID: 610427229}
   - component: {fileID: 610427228}
+  - component: {fileID: 610427231}
   m_Layer: 5
   m_Name: StageSelectButton
   m_TagString: Untagged
@@ -3672,6 +3704,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610427226}
   m_CullTransparentMesh: 1
+--- !u!114 &610427231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610427226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: GoBackStageSelect
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &640021542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 31886594533341681, guid: 78c8485147a5f01488aa6830b9141c6f, type: 3}
@@ -4321,6 +4382,7 @@ GameObject:
   - component: {fileID: 766206871}
   - component: {fileID: 766206870}
   - component: {fileID: 766206869}
+  - component: {fileID: 766206872}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -4430,6 +4492,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766206867}
   m_CullTransparentMesh: 1
+--- !u!114 &766206872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766206867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: Continue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &774498798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 31886594533341681, guid: 78c8485147a5f01488aa6830b9141c6f, type: 3}
@@ -5399,7 +5490,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949230670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.10096711, y: 0.38044205, z: -0.1485602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5985,6 +6076,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 31886594533341681, guid: 78c8485147a5f01488aa6830b9141c6f, type: 3}
   m_PrefabInstance: {fileID: 226402005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1107904787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107904788}
+  - component: {fileID: 1107904789}
+  m_Layer: 0
+  m_Name: StageCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107904788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107904787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6656373, y: -4.1043277, z: -0.25946826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107904789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107904787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad2615ea5015da4da61cb8807721164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObj: {fileID: 1232599264}
+  continuePoint:
+  - {fileID: 256715389}
 --- !u!1001 &1108223724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8635,6 +8773,7 @@ GameObject:
   - component: {fileID: 1561344461}
   - component: {fileID: 1561344460}
   - component: {fileID: 1561344459}
+  - component: {fileID: 1561344462}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -8744,6 +8883,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561344457}
   m_CullTransparentMesh: 1
+--- !u!114 &1561344462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561344457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 550026342}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: GoBackTitle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1562768721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9165555028310297515, guid: 6c313b865cffeb44b89f54f1395d4a0d, type: 3}

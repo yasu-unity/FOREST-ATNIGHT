@@ -14,27 +14,27 @@ public class GameManager : MonoBehaviour
     [SerializeField] Text scoreText;
     [SerializeField] GameObject GameOverText;
 
-    int score=0;
+    int score = 0;
     void Start()
     {
-        
-        scoreText.text="SCORE:"+ score.ToString();
+
+        scoreText.text = "SCORE:" + GameData.instance.score.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void AddScore(int val)
     {
-        score += val;
-        scoreText.text= "SCORE:"+ score.ToString();
+        GameData.instance.score += val;
+        scoreText.text = "SCORE:" + GameData.instance.score.ToString();
     }
     public void GoBackStageSelect()
     {
         SceneManager.LoadScene("StageSelect");
-        
+
 
     }
     public void GoBackTitle()
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     }
     public void Continue(int stageNo)
     {
-        SceneManager.LoadScene("GameScene"+stageNo);
+        SceneManager.LoadScene("GameScene" + stageNo);
     }
     //バックボタンを押した
     /*public void PushBackButton()
@@ -54,9 +54,10 @@ public class GameManager : MonoBehaviour
     public void StageClear()
     {
         //セーブデータ更新
-		if (PlayerPrefs.GetInt ("CLEAR", 0) < stageNo) {
-			//セーブされているステージNoより今のステージNoが大きければ
-			PlayerPrefs.SetInt ("CLEAR", stageNo);	//ステージナンバーを記録
+        if (PlayerPrefs.GetInt("CLEAR", 0) < stageNo)
+        {
+            //セーブされているステージNoより今のステージNoが大きければ
+            PlayerPrefs.SetInt("CLEAR", stageNo);	//ステージナンバーを記録
         }
         //3秒後にステージセレクト画面へ
         Invoke("GoBackStageSelect", 3.0f);
@@ -64,16 +65,11 @@ public class GameManager : MonoBehaviour
     }
     private void Awake()
     {
-        if(instance==null)
+        if (instance == null)
         {
-            instance=this;
-            DontDestroyOnLoad(this.gameObject);
+            instance = this;
+        }
 
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
     }
     public void GameOver()
     {

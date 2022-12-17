@@ -10,17 +10,22 @@ public class StageCtl : MonoBehaviour
     private PlayerManager playerManager;
 
 
-    void Start()
+
+
+}
+
+
+/*void Start()
     {
         if(playerObj!=null &&continuePoint!=null&&continuePoint.Length>0)
         {
             playerObj.transform.position=continuePoint[0].transform.position;
 
-           /* playerManager = playerObj.GetComponent<PlayerManager>();
+            playerManager = playerObj.GetComponent<PlayerManager>();
             if (playerManager == null)
             {
                 Debug.Log("プレーヤーマネージャーじゃないものがアタッチされてるよ");
-            }*/
+            }
         }
         else
         {
@@ -31,7 +36,7 @@ public class StageCtl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if(playerManager!=null)
+        if(playerManager!=null)
         {
             if (continuePoint.Length > GameManager.instance.continueNum)
             {
@@ -41,7 +46,5 @@ public class StageCtl : MonoBehaviour
             {
                 Debug.Log("コンティニューポイントの設定が足りてないよ");
             }
-        }*/
-    }
-    
-}
+        }
+    }*/

@@ -13,16 +13,16 @@ public class StageCtl : MonoBehaviour
     {
         playerObj.transform.position = continuePoint[0].transform.position;
 
-        //playerManager = playerObj.GetComponent<PlayerManager>();
+        playerManager = playerObj.GetComponent<PlayerManager>();
         
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Continue")
         {
-            if (continuePoint.Length > GameManager.instance.continueNum)
+            if (continuePoint.Length > GameData.instance.continueNum)
             {
-                playerObj.transform.position = continuePoint[GameManager.instance.continueNum].transform.position;
+                playerObj.transform.position = continuePoint[GameData.instance.continueNum].transform.position;
             }
         }
     }

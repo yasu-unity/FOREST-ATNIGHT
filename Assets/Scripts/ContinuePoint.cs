@@ -24,7 +24,7 @@ public class ContinuePoint : MonoBehaviour
         //プレーヤーが範囲内に入ったら
         if (trigger.isOn && !on)
         {
-            GameManager.instance.continueNum = continueNum;
+            GameData.instance.continueNum = continueNum;
             on = true;
         }
     }

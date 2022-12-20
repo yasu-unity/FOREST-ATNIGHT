@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 150871010}
   m_Layer: 0
   m_Name: ContinuePoint
-  m_TagString: Untagged
+  m_TagString: Continue
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,7 +498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150871009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.5, y: 1.5756742, z: 0.049739867}
+  m_LocalPosition: {x: 7.23, y: 1.5756742, z: 0.049739867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -520,6 +520,10 @@ PrefabInstance:
     - target: {fileID: 472101089189871887, guid: be84882372f9c7841a7e72e20a3074be, type: 3}
       propertyPath: m_Name
       value: PlayerTrigerCheck
+      objectReference: {fileID: 0}
+    - target: {fileID: 472101089189871887, guid: be84882372f9c7841a7e72e20a3074be, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2559395462866130535, guid: be84882372f9c7841a7e72e20a3074be, type: 3}
       propertyPath: m_RootOrder
@@ -15013,7 +15017,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060362069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.4, z: 0}
+  m_LocalPosition: {x: -2.74, y: -0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

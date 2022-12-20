@@ -9,9 +9,23 @@ public class StageCtl : MonoBehaviour
     [Header("コンティニュー位置")]public GameObject []continuePoint;
     private PlayerManager playerManager;
 
+    private void Start()
+    {
+        playerObj.transform.position = continuePoint[0].transform.position;
 
-
-
+        //playerManager = playerObj.GetComponent<PlayerManager>();
+        
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Continue")
+        {
+            if (continuePoint.Length > GameManager.instance.continueNum)
+            {
+                playerObj.transform.position = continuePoint[GameManager.instance.continueNum].transform.position;
+            }
+        }
+    }
 }
 
 

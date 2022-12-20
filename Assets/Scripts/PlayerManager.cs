@@ -170,6 +170,7 @@ public class PlayerManager : MonoBehaviour
                 GameManager.instance.GameOver();
             }
         }
+        
 
     }
     void DaethJump()

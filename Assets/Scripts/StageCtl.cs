@@ -11,7 +11,7 @@ public class StageCtl : MonoBehaviour
 
     private void Start()
     {
-        playerObj.transform.position = continuePoint[0].transform.position;
+        playerObj.transform.position = continuePoint[GameData.instance.continueNum].transform.position;
 
         playerManager = playerObj.GetComponent<PlayerManager>();
         

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public int stageNo; //ステージナンバー
-    public int continueNum; //コンティニューナンバー
+    //public int continueNum; //コンティニューナンバー
     public static GameManager instance;//どこからでもアクセスできる
 
     [SerializeField] Text scoreText;

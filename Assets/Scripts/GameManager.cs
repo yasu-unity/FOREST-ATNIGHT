@@ -13,11 +13,14 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] Text scoreText;
     [SerializeField] GameObject GameOverText;
+    public AudioClip gameoverSE;//効果音:ゲームオーバー
+
+    private AudioSource audioSource;//オーディオソース
 
     int score = 0;
     void Start()
     {
-
+        audioSource = this.gameObject.GetComponent<AudioSource>();
         scoreText.text = "SCORE:" + GameData.instance.score.ToString();
     }
 
@@ -59,8 +62,8 @@ public class GameManager : MonoBehaviour
             //セーブされているステージNoより今のステージNoが大きければ
             PlayerPrefs.SetInt("CLEAR", stageNo);	//ステージナンバーを記録
         }
-        //3秒後にステージセレクト画面へ
-        Invoke("GoBackStageSelect", 3.0f);
+        //5秒後にステージセレクト画面へ
+        Invoke("GoBackStageSelect", 5.0f);
 
     }
     private void Awake()
@@ -73,6 +76,8 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
+        
         GameOverText.SetActive(true);
+        audioSource.PlayOneShot(gameoverSE);
     }
 }

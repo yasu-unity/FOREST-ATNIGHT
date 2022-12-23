@@ -10,6 +10,9 @@ public class PlayerManager : MonoBehaviour
     private Rigidbody2D rbody; //プレーヤー制御用Rigidbody2D
     float speed;
     Animator animator;
+    public AudioClip clearSE;//効果音:クリア
+    public AudioClip enemydeath;//効果音:エネミーデス
+    public AudioClip getcoin;//効果音:コインゲット
 
     private const float MOVE_SPEED =3; //移動速度固定値
     private float moveSpeed; //移動速度
@@ -17,7 +20,7 @@ public class PlayerManager : MonoBehaviour
     private bool goJump= false;//ジャンプしたか否か
     private bool canJump=false;//ブロックに設置してるか否か
     private bool usingButtons =false;//ボタンを押してるか否か
-    
+    private AudioSource audioSource;//オーディオソース
 
     public enum MOVE_DIR
     {
@@ -30,6 +33,7 @@ public class PlayerManager : MonoBehaviour
     private MOVE_DIR moveDirection = MOVE_DIR.STOP;//移動方向
     void Start()
     {
+        audioSource = this.gameObject.GetComponent<AudioSource>();
         rbody = GetComponent<Rigidbody2D>();
         animator =GetComponent<Animator>();
 
@@ -126,9 +130,9 @@ public class PlayerManager : MonoBehaviour
     {
         if(collision.gameObject.tag=="Trap")
         {
-            Debug.Log("ゲームオーバー");
             Destroy(this.gameObject);
             GameManager.instance.GameOver();
+            
         }
         if(collision.gameObject.tag=="Finish")
         {
@@ -136,11 +140,13 @@ public class PlayerManager : MonoBehaviour
             //collision.gameObject.GetComponent<GameManager>().StageClear();
             //gameManager.StageClear();
             GameManager.instance.StageClear();
+            audioSource.PlayOneShot(clearSE);
         }
         if(collision.gameObject.tag=="Item")
         {
             //アイテム取得
             collision.gameObject.GetComponent<ItemManager>().GetItem();
+            audioSource.PlayOneShot(getcoin);
         }
         if(collision.gameObject.tag=="Enemy")
         {
@@ -149,16 +155,18 @@ public class PlayerManager : MonoBehaviour
             {
                 //上から踏んだら
                 //敵を削除
+                
                 rbody.velocity = new Vector2(rbody.velocity.x,0);
                 DaethJump();
                 enemy.DestroyEnemy();
+                audioSource.PlayOneShot(enemydeath);
             }
             else
             {
                 //横からぶつかったら
                 Destroy(this.gameObject);
                 GameManager.instance.GameOver();
-
+                
             }
         }
 

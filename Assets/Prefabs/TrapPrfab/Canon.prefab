@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8663f14397ef454a98ffa2489283122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objPrefab: {fileID: 6058677850800851234, guid: 149ccdc7686398d4fbb881e05c048bee, type: 3}
+  objPrefab: {fileID: 3023299053505729225, guid: cc4f53e152355734f9ead5012ef077bf, type: 3}
   delayTime: 2
   fireSpeedX: -4
   fireSpeedY: 0

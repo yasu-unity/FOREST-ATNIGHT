@@ -37,12 +37,13 @@ public class GameManager : MonoBehaviour
     public void GoBackStageSelect()
     {
         SceneManager.LoadScene("StageSelect");
-
+        GameData.instance.continueNum = 0;
 
     }
     public void GoBackTitle()
     {
         SceneManager.LoadScene("TitleScene");
+        GameData.instance.continueNum = 0;
     }
     public void Continue(int stageNo)
     {
@@ -62,6 +63,7 @@ public class GameManager : MonoBehaviour
             //セーブされているステージNoより今のステージNoが大きければ
             PlayerPrefs.SetInt("CLEAR", stageNo);	//ステージナンバーを記録
         }
+        GameData.instance.continueNum = 0;
         //5秒後にステージセレクト画面へ
         Invoke("GoBackStageSelect", 5.0f);
 

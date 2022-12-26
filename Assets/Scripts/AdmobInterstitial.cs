@@ -8,7 +8,7 @@ using GoogleMobileAds.Placement;
 public class AdmobInterstitial : MonoBehaviour
 {
     InterstitialAdGameObject interstitialAd;
-
+    
     void Start()
     {
         //インターステシャル準備

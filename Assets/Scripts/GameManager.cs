@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] Text scoreText;
     [SerializeField] GameObject GameOverText;
+    [SerializeField] GameObject ClearText;
     public AudioClip gameoverSE;//効果音:ゲームオーバー
 
     private AudioSource audioSource;//オーディオソース
@@ -66,9 +67,13 @@ public class GameManager : MonoBehaviour
         }
         GameData.instance.continueNum = 0;
         //5秒後にステージセレクト画面へ
-        Invoke("GoBackStageSelect", 5.0f);
+        Invoke("Clear", 5.0f);
 
+    }public void Clear()
+    {
+        ClearText.SetActive(true);
     }
+
     private void Awake()
     {
         if (instance == null)

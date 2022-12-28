@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: 36487fa6a5984d3a80bc98eca8a2b9e6
+guid: 551e36d1690570a41a4854f9fe48f3a7
 labels:
-- gvh
-- gvh_version-5.4.0.90
-- gvhp_exportpath-GoogleMobileAds/GoogleMobileAds.Core.dll
+- gpsr
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -16,9 +14,14 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
-      Any: 
+      Android: Android
     second:
       enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
       settings: {}
   - first:
       Editor: Editor
@@ -26,12 +29,6 @@ PluginImporter:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  - first:
-      Windows Store Apps: WindowsStoreApps
-    second:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
   userData: 
   assetBundleName: 
   assetBundleVariant: 

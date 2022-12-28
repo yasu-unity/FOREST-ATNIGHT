@@ -2,6 +2,7 @@
   <packages>
     <package>com.google.android.gms:play-services-ads:19.5.0</package>
     <package>com.google.code.gson:gson:2.8.5</package>
+    <package>com.unity3d.mediation:admob-adapter:[1.0,2.0[</package>
     <package>com.unity3d.mediation:mediation-sdk:[1.0,2.0[</package>
     <package>com.unity3d.mediation:unityads-adapter:[1.0,2.0[</package>
   </packages>
@@ -63,6 +64,7 @@
     <file>Assets/Plugins/Android/com.squareup.okhttp3.okhttp-4.6.0.jar</file>
     <file>Assets/Plugins/Android/com.squareup.okio.okio-2.6.0.jar</file>
     <file>Assets/Plugins/Android/com.unity3d.ads.unity-ads-4.5.0.aar</file>
+    <file>Assets/Plugins/Android/com.unity3d.mediation.admob-adapter-1.1.0.aar</file>
     <file>Assets/Plugins/Android/com.unity3d.mediation.mediation-adapter-1.1.0.aar</file>
     <file>Assets/Plugins/Android/com.unity3d.mediation.mediation-logger-1.1.0.aar</file>
     <file>Assets/Plugins/Android/com.unity3d.mediation.mediation-sdk-1.1.0.aar</file>
@@ -75,7 +77,7 @@
     <file>Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="androidAbis" value="arm64-v8a" />
     <setting name="bundleId" value="com.YSCompany.FORESTATNIGHT" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
